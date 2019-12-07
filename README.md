@@ -24,8 +24,9 @@ This repo provides a starting point for spinning up quick web-based prototypes u
 ```shell
 curl -Lk https://github.com/pbeshai/beshai-web-quickstart-full/archive/master.zip -o beshai-web-quickstart-full.zip && \
   unzip beshai-web-quickstart-full.zip && \
-  rm beshai-web-quickstart-full.zip && \
-  cd beshai-web-quickstart-full
+  rm beshai-web-quickstart-full.zip
+mv beshai-web-quickstart-full-master prototype137
+cd prototype137
 npm install
 ```
 

@@ -19,7 +19,9 @@ This repo provides a starting point for spinning up quick web-based prototypes u
 
 ## Installation
 
-[Download a zip of this repo](https://github.com/pbeshai/beshai-web-quickstart-full/archive/master.zip) then run `npm install`
+[Download a zip of this repo](https://github.com/pbeshai/beshai-web-quickstart-full/archive/master.zip) then run `npm install`.
+
+Replacing **prototype137** with the name of your project, you can copy and paste the following to install:
 
 ```shell
 curl -Lk https://github.com/pbeshai/beshai-web-quickstart-full/archive/master.zip -o beshai-web-quickstart-full.zip && \

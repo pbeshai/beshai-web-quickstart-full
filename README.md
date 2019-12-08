@@ -21,16 +21,18 @@ This repo provides a starting point for spinning up quick web-based prototypes u
 
 [Download a zip of this repo](https://github.com/pbeshai/beshai-web-quickstart-full/archive/master.zip) then run `npm install`.
 
-Replacing **prototype137** with the name of your project, you can copy and paste the following to install:
+You can copy and paste the following to install. It will prompt you for a project name which set the name of the directory created:
 
 ```shell
+echo -n "Enter project name: " && read projectName
 curl -Lk https://github.com/pbeshai/beshai-web-quickstart-full/archive/master.zip -o beshai-web-quickstart-full.zip && \
   unzip beshai-web-quickstart-full.zip && \
   rm beshai-web-quickstart-full.zip
-mv beshai-web-quickstart-full-master prototype137
-cd prototype137
+mv beshai-web-quickstart-full-master $projectName
+cd $projectName
 npm install
 ```
+
 
 ## Run the dev server
 

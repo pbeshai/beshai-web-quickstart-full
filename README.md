@@ -21,7 +21,7 @@ This repo provides a starting point for spinning up quick web-based prototypes u
 
 [Download a zip of this repo](https://github.com/pbeshai/beshai-web-quickstart-full/archive/master.zip) then run `npm install`.
 
-You can copy and paste the following to install. It will prompt you for a project name which set the name of the directory created:
+You can copy and paste the following to install. It will prompt you for a project name which sets the name of the directory created:
 
 ```shell
 echo -n "Enter project name: " && read projectName

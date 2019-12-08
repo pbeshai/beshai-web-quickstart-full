@@ -1,9 +1,17 @@
 
-
 <div align="center">
   <h1>Beshai Web Quickstart - Full</h1>
-  <p>Quickly spin up web-based prototypes using modern javascript, webpack, and tailwind.</p>
-  <p>Extends <a href="https://github.com/pbeshai/beshai-web-quickstart-basic">beshai-web-quickstart-basic</a> by adding in <a href="https://tailwindcss.com/">Tailwind CSS</a> and a few convenient webpack loaders.
+  <p>
+    Quickly spin up web-based prototypes using modern javascript, webpack, and
+    tailwind.
+  </p>
+  <p>
+    Extends
+    <a href="https://github.com/pbeshai/beshai-web-quickstart-basic"
+      >beshai-web-quickstart-basic</a
+    >
+    by adding in <a href="https://tailwindcss.com/">Tailwind CSS</a> and a few
+    convenient webpack loaders.
   </p>
   <hr />
 </div>

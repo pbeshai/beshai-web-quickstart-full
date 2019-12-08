@@ -152,10 +152,38 @@ module.exports = {
 
     new HtmlWebpackPlugin({
       template: path.resolve(paths.public, 'index.html'),
+      ...(isProd
+        ? {
+            minify: {
+              removeComments: true,
+              collapseWhitespace: true,
+              removeRedundantAttributes: true,
+              useShortDoctype: true,
+              removeEmptyAttributes: true,
+              removeStyleLinkTypeAttributes: true,
+              keepClosingSlash: true,
+              minifyJS: true,
+              minifyCSS: true,
+              minifyURLs: true,
+            },
+          }
+        : {}),
     }),
 
     new CopyPlugin([
       { from: paths.public, to: paths.build, ignore: ['index.html'] },
     ]),
   ],
+
+  // don't use node modules in browser even if libraries want them (provide empty mocks)
+  node: {
+    child_process: 'empty',
+    dgram: 'empty',
+    dns: 'mock',
+    fs: 'empty',
+    http2: 'empty',
+    module: 'empty',
+    net: 'empty',
+    tls: 'empty',
+  },
 };

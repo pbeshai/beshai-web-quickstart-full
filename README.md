@@ -1,7 +1,13 @@
 
-# beshai-web-quickstart-full
 
-This repo provides a starting point for spinning up quick web-based prototypes using modern javascript and webpack. It builds upon [beshai-web-quickstart-basic](https://github.com/pbeshai/beshai-web-quickstart-basic) by adding in [Tailwind CSS](https://tailwindcss.com/) and a few convenient webpack loaders.
+<div align="center">
+  <h1>Beshai Web Quickstart - Full</h1>
+  <p>Quickly spin up web-based prototypes using modern javascript, webpack, and tailwind.</p>
+  <p>Extends <a href="https://github.com/pbeshai/beshai-web-quickstart-basic">beshai-web-quickstart-basic</a> by adding in <a href="https://tailwindcss.com/">Tailwind CSS</a> and a few convenient webpack loaders.
+  </p>
+  <hr />
+</div>
+
 
 ## Features
 

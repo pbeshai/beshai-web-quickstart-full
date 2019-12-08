@@ -71,3 +71,12 @@ npm run prettier
 You may also consider [setting up a git hook with husky](https://prettier.io/docs/en/precommit.html) to make eslint and prettier run automatically on commits.
 
 
+## Remove Tailwind CSS
+
+If you'd prefer not to use Tailwind, you can remove it by:
+
+1. `npm uninstall tailwindcss --save`
+2. Delete tailwind.config.js
+3. Remove `@tailwind` lines from src/index.css
+4. Remove `require('tailwindcss')` from postcss.config.js
+

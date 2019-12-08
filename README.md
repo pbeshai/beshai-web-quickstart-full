@@ -102,7 +102,6 @@ If you'd prefer not to use Tailwind, you can remove it by:
 
 ## License
 
-ISC License (ISC)
 Copyright 2019 Peter Beshai
 
 Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted.

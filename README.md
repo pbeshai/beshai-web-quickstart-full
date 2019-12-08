@@ -49,6 +49,17 @@ You can then check out the production build by running a web server in the build
 npm run start:prod
 ```
 
+## Deploying
+
+There are many options to easily deploy your prototype including [Surge](https://surge.sh/) and [Netlify](https://www.netlify.com/), but this repo comes configured for easy deploys to github pages. After pushing your repo to GitHub, just run
+
+```shell
+npm run deploy
+```
+
+Your app will be available at `https://username.github.io/repo`.
+
+
 ## Linting and Code Formatting
 
 Linting and code formatting is provided via the `lint` and `prettier` scripts. I have my editor configured to automatically run prettier on save, but if you want to run it manually you can run:
@@ -58,3 +69,5 @@ npm run prettier
 ```
 
 You may also consider [setting up a git hook with husky](https://prettier.io/docs/en/precommit.html) to make eslint and prettier run automatically on commits.
+
+

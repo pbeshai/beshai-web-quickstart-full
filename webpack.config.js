@@ -32,6 +32,10 @@ module.exports = {
   },
   devServer: {
     // hot: true // enable hot module reloading (HMR)
+    overlay: {
+      errors: true,
+      warnings: false,
+    },
   },
   module: {
     rules: [
